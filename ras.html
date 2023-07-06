@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashi Portfolio</title>
+
+    <!--Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfo<span>lio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, This is Me</h3>
+            <h2>Rashi Suman</h2>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Currently pursuing Master's in Computer Application(MCA) from 
+                Motilal Nehru National Institute of Technology(MNNIT) Allahabad. </p>
+            
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/rashi-s-2880ba202/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Rashi458" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/srashi5054" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/rashi__9400/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/161PknhjzZxSsMunP9Ud36-grATbtUot5/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About section Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.png" alt="Profile Picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3><span class="multiple-text-1"></span></h3>
+            <p>Currently pursuing Master's in Computer Application(MCA) from 
+                Motilal Nehru National Institute of Technology(MNNIT) Allahabad. 
+                I am Quick learner, Enthusiast to learning new web technologies 
+                and development tools. I am talented, ambitious and hardworking 
+                individual. I am adapt at handling multiple tasks on daily basis 
+                competently and at working well under pressure. A key strength is 
+                communication, building strong relationship with the people in 
+                order to deliver the best results.</p>
+
+        </div>
+    </section>
+
+    <!-- Services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Developer</h3>
+                <p>FrontEnd Developer in HTML5, CSS3 and 
+                    Javascript and tailwind css.Able to design Awesome UI. </p>
+                <a href="#portfolio" target="_blank" class="btn">Know More</a>
+                </div>
+            
+            <div class="services-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>Programmer</h3>
+                <p>I am Programmer with efficient in C++ with good 
+                    in Data structures and Algorithms and basics in 
+                    Java programming.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/logo.png" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>Voice Hub</h4>
+                    <p>For more Click Below.</p>
+                    <a href="https://github.com/Rashi458/voice-hub" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/logo2.jpg" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>Weather Forecasting App</h4>
+                    <p>For More details Click Below.</p>
+                    <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/logo3.jpg" alt="portfolio-1">
+                <div class="portfolio-layer">
+                    <h4>My Personal Portfolio</h4>
+                    <p>Responsive, Build using HTML5, CSS3 and JavaScript. For more details Click below?.</p>
+                    <a href="https://github.com/Rashi458/portfolio" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name" required>
+                <input type="email" placeholder="Email Address" id="email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="10 Digit Mobile Number" id="mobNumber" required>
+                <input type="text" placeholder="Email Subject" id="emailSubject" required>
+            </div>
+            <textarea name="" placeholder="Your Message" id="message" cols="30" rows="5"></textarea>
+            <input type="submit" value="Send Message" class="btn" id = "button">
+        </form>
+    </section>
+
+    <!-- Footer Designing -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Rashi & Co. Pvt Ltd | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed Js-->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+    <!--script for SMTP.js For sending mail-->
+    <script src="https://smtpjs.com/smtp.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
